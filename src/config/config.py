@@ -18,5 +18,3 @@ def get_db_connection_params(dbname: str) -> dict:
     params = load_config()
     params['database'] = dbname
     return params
-
-
