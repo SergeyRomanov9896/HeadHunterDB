@@ -1,6 +1,6 @@
 
 import psycopg2
-from config.config import load_config
+from config import load_config
 
 def create_database(dbname: str):
     """Функция для создания новой базы данных"""
